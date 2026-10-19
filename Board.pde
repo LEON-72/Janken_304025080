@@ -16,7 +16,7 @@ class Board {
    textAlign(CENTER);
    text(comment, 225, 180);
    textSize(20);
-   String scoreMessage = "Win:"+game.win+" Draw:"+game.draw+ " Lose:"+game.lose;
+       String scoreMessage = "Score:"+game.score + " Win:"+game.win+" Draw:"+game.draw+ " Lose:"+game.lose;
    text(scoreMessage, 225, 200);
 }
 
